@@ -25,10 +25,13 @@ header {
 }
 
 .contents-panel {
-    width: 20%;
+    width: 15%; /* Adjust the width as needed, e.g., 10-15% */
     background-color: #eee;
     padding: 20px;
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    bottom: 0;
 }
 
 .contents-panel ul {
@@ -48,7 +51,8 @@ header {
 }
 
 main {
-    width: 80%;
+    width: 85%; /* Adjust the width as needed */
+    margin-left: 15%; /* Set to the width of the contents panel */
     padding: 20px;
     box-sizing: border-box;
 }
