@@ -13,30 +13,42 @@ body {
 header {
     width: 100%;
     padding: 15px;
-    color: aliceblue;
-    background-color: lightslategrey;
-    opacity: 0.8;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
 }
 
-aside {
+.content-wrapper {
+    display: flex;
+    max-width: 1200px; /* Adjust the width as needed */
+    margin-top: 20px;
+}
+
+.contents-panel {
     width: 20%;
-    padding-left: 15px;
-    padding-bottom: 10%;
-    margin-bottom: 10%;
-    background-color: aliceblue;
+    background-color: #eee;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-section {
-    max-width: 70%; /* Adjust the width as needed, e.g., 70% for 0.7 of the width */
-    padding-left: 15px;
-    background-color: white;
+.contents-panel ul {
+    list-style: none;
+    padding: 0;
 }
 
-a {
-    color: black;
+.contents-panel a {
     text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
 }
 
-a:hover {
+.contents-panel a:hover {
     text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
 }
