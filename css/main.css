@@ -156,6 +156,10 @@ h1, h2, h3 {
     padding: 4px 0;
 }
 
+.kv li > span:first-child {
+    font-weight: 600;
+}
+
 .button {
     display: inline-block;
     border: 1px solid var(--text);
