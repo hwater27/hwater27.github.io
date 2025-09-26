@@ -1,0 +1,203 @@
+/* Minimal, white, modern styles for Seongsu Lee blog */
+:root {
+    --bg: #ffffff;
+    --text: #111111;
+    --subtle: #6b7280;
+    --muted: #e5e7eb;
+    --accent: #111111;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--muted);
+    z-index: 10;
+}
+
+.site-title {
+    display: inline-block;
+    padding: 16px 0;
+    font-weight: 800;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-toggle {
+    display: none;
+    border: 1px solid var(--muted);
+    background: transparent;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a {
+    color: var(--text);
+    text-decoration: none;
+    padding: 12px 0;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+.site-main {
+    padding-bottom: 64px;
+}
+
+.section {
+    padding: 56px 0;
+    border-bottom: 1px solid var(--muted);
+}
+
+h1, h2, h3 {
+    line-height: 1.25;
+    margin: 0 0 16px 0;
+}
+
+.lede {
+    font-size: 1.1rem;
+    color: var(--subtle);
+}
+
+.list-posts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-posts li {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px dashed var(--muted);
+}
+
+.list-posts li:first-child {
+    border-top: 0;
+}
+
+.list-posts .meta {
+    color: var(--subtle);
+    font-variant-numeric: tabular-nums;
+}
+
+.list-cards {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+}
+
+.list-cards li {
+    border: 1px solid var(--muted);
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.list-plain {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.kv {
+    list-style: none;
+    margin: 0 0 16px 0;
+    padding: 0;
+}
+
+.kv li {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 12px;
+    padding: 6px 0;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid var(--text);
+    color: var(--text);
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 999px;
+}
+
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+}
+
+.site-footer {
+    padding: 28px 0 56px 0;
+    color: var(--subtle);
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+
+.skip-link:focus {
+    left: 16px;
+    top: 8px;
+    background: #000;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+@media (max-width: 720px) {
+    .nav-toggle { display: inline-block; }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        padding-bottom: 12px;
+    }
+    .nav-list.open { display: flex; }
+    .two-col { grid-template-columns: 1fr; }
+}
+

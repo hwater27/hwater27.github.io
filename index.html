@@ -1,41 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <title>Your Blog Name</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seongsu Lee — Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    <meta name="color-scheme" content="light">
+    <meta name="description" content="Personal blog of Seongsu Lee: CV, studies, papers, thoughts, trips, and links.">
 </head>
-
 <body>
-    <div class="container">
-        <header>
-            <h1>Your Blog Name</h1>
-        </header>
-        <div class="content-wrapper">
-            <nav class="contents-panel">
-                <!-- Contents panel links go here -->
-                <ul>
-                    <li><a href="#section1">Section 1</a></li>
-                    <li><a href="#section2">Section 2</a></li>
-                    <!-- Add more links as needed -->
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+        <div class="wrap">
+            <a class="site-title" href="/">Seongsu Lee</a>
+            <nav class="site-nav" aria-label="Primary">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+                <ul id="nav-menu" class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#studies">Studies</a></li>
+                    <li><a href="#papers">Papers</a></li>
+                    <li><a href="#thoughts">Thoughts</a></li>
+                    <li><a href="#trips">Trips</a></li>
+                    <li><a href="#links">Links</a></li>
                 </ul>
             </nav>
-            <main>
-                <!-- Your main content goes here -->
-                <section id="section1">
-                    <h2>Section 1</h2>
-                    <p>This is the content of Section 1.</p>
-                </section>
-                <section id="section2">
-                    <h2>Section 2</h2>
-                    <p>This is the content of Section 2.</p>
-                </section>
-                <!-- Add more sections as needed -->
-            </main>
         </div>
-    </div>
-    <script src="js/script.js"></script>
-</body>
+    </header>
 
+    <main id="content" class="site-main">
+        <section id="about" class="section">
+            <div class="wrap">
+                <h1>Hi, I’m Seongsu.</h1>
+                <p class="lede">I write about machine learning, research notes, and life. This is my minimal hub for my CV, studies, papers I read, thoughts, trips, and personal links.</p>
+            </div>
+        </section>
+
+        <section id="cv" class="section">
+            <div class="wrap two-col">
+                <div>
+                    <h2>CV</h2>
+                    <p>One‑page PDF is available below. You can also keep a plaintext summary here.</p>
+                    <ul class="kv">
+                        <li><span>Current</span><span>Researcher at …</span></li>
+                        <li><span>Focus</span><span>Deep Learning, RL</span></li>
+                        <li><span>Email</span><span><a href="mailto:you@example.com">you@example.com</a></span></li>
+                    </ul>
+                    <p><a class="button" href="/assets/Seongsu_Lee_CV.pdf">Download CV</a></p>
+                </div>
+                <div>
+                    <h3>Highlights</h3>
+                    <ul class="list-plain">
+                        <li>🧠 Built X that does Y.</li>
+                        <li>📄 Published Z at ABC 2024.</li>
+                        <li>💼 Previously at Company Foo.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="studies" class="section">
+            <div class="wrap">
+                <h2>Studies</h2>
+                <ul class="list-cards">
+                    <li>
+                        <h3><a href="#">Course or Topic Name</a></h3>
+                        <p>Short note on what you studied, with links to notes or repos.</p>
+                    </li>
+                    <li>
+                        <h3><a href="#">Another Topic</a></h3>
+                        <p>Key takeaways or resources.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="papers" class="section">
+            <div class="wrap">
+                <h2>Papers Read</h2>
+                <ul class="list-posts" aria-live="polite">
+                    <li><a href="pap0001.html">Paper Note 1</a> <span class="meta">— 2025‑09‑01</span></li>
+                    <li><a href="pap0002.html">Paper Note 2</a> <span class="meta">— 2025‑08‑20</span></li>
+                    <li><a href="pap0004.html">Paper Note 3</a> <span class="meta">— 2025‑07‑05</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="thoughts" class="section">
+            <div class="wrap">
+                <h2>Thoughts</h2>
+                <ul class="list-posts">
+                    <li><a href="3.html">Why simplicity scales</a> <span class="meta">— 2025‑06‑10</span></li>
+                    <li><a href="2.html">On reading more papers</a> <span class="meta">— 2025‑05‑22</span></li>
+                    <li><a href="1.html">Starting this blog</a> <span class="meta">— 2025‑05‑01</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="trips" class="section">
+            <div class="wrap">
+                <h2>Trips</h2>
+                <ul class="list-cards">
+                    <li>
+                        <h3><a href="#">Tokyo, 2025</a></h3>
+                        <p>Minimal photo diary with a few lines.</p>
+                    </li>
+                    <li>
+                        <h3><a href="#">Jeju, 2024</a></h3>
+                        <p>Hiking notes and coffee spots.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="links" class="section">
+            <div class="wrap two-col">
+                <div>
+                    <h2>Links</h2>
+                    <ul class="list-plain">
+                        <li><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></li>
+                        <li><a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <p>DMs open on Twitter · Email preferred.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>© <span id="year"></span> Seongsu Lee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
