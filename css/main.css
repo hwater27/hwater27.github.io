@@ -151,7 +151,7 @@ h1, h2, h3 {
 
 .kv li {
     display: grid;
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: 120px 1fr;
     gap: 8px;
     padding: 4px 0;
 }
