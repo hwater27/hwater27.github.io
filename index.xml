@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Seongsu</title>
+      <link>https://hwater27.github.io</link>
+      <description>Last 10 notes on Seongsu</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>2026 FastMRI Ideation</title>
+    <link>https://hwater27.github.io/__Private/Research/2026-FastMRI-Ideation</link>
+    <guid>https://hwater27.github.io/__Private/Research/2026-FastMRI-Ideation</guid>
+    <description><![CDATA[ 260212 일단 비밀 엄수는 당연히 중요하다. 5월에는 advertise를 해야 하고, 4월이 중간고사니까 3월까진 돌려보기. FastMRI Farm을 막아야 한다. ]]></description>
+    <pubDate>Thu, 19 Feb 2026 09:05:14 GMT</pubDate>
+  </item><item>
+    <title>IRT Research Note</title>
+    <link>https://hwater27.github.io/__Private/Research/IRT-Research-Note</link>
+    <guid>https://hwater27.github.io/__Private/Research/IRT-Research-Note</guid>
+    <description><![CDATA[ 내 연구의 흐름 IRT에서 Non-monotonicity를 띠는 IRF가 존재할 것이며, 교육적 함의를 지닐 것이라 추측함. ]]></description>
+    <pubDate>Thu, 19 Feb 2026 09:05:14 GMT</pubDate>
+  </item><item>
+    <title>[JoLab] 260213 Lab Meeting</title>
+    <link>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.jo.260213</link>
+    <guid>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.jo.260213</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 19 Feb 2026 09:05:14 GMT</pubDate>
+  </item><item>
+    <title>[LIST] 260212 Lab Meeting</title>
+    <link>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260212</link>
+    <guid>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260212</guid>
+    <description><![CDATA[ 1. Collaborative Multi-Agent for Brain MRI Captioning Medical 쪽에서 VLM이 많이 나오고 있지만, MRI 쪽에서는 그 pool이 적어 성능이 나오지 않는다. ]]></description>
+    <pubDate>Thu, 19 Feb 2026 09:05:14 GMT</pubDate>
+  </item><item>
+    <title>[LIST] 260219 Lab Meeting</title>
+    <link>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260219</link>
+    <guid>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260219</guid>
+    <description><![CDATA[ 1. ]]></description>
+    <pubDate>Thu, 19 Feb 2026 09:05:14 GMT</pubDate>
+  </item><item>
+    <title>전자의 스핀(Spin)</title>
+    <link>https://hwater27.github.io/Posts/B2.-%EB%AC%BC%EB%A6%AC%ED%95%99/phy.qtm.spin</link>
+    <guid>https://hwater27.github.io/Posts/B2.-%EB%AC%BC%EB%A6%AC%ED%95%99/phy.qtm.spin</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 19 Feb 2026 09:05:14 GMT</pubDate>
+  </item><item>
+    <title>볼츠만 분포(Boltzmann distribution)</title>
+    <link>https://hwater27.github.io/Posts/B2.-%EB%AC%BC%EB%A6%AC%ED%95%99/phy.stat.dist.boltzmann</link>
+    <guid>https://hwater27.github.io/Posts/B2.-%EB%AC%BC%EB%A6%AC%ED%95%99/phy.stat.dist.boltzmann</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 19 Feb 2026 09:05:14 GMT</pubDate>
+  </item><item>
+    <title>이징 모형(Ising Model)</title>
+    <link>https://hwater27.github.io/Posts/B2.-%EB%AC%BC%EB%A6%AC%ED%95%99/phy.stat.ising</link>
+    <guid>https://hwater27.github.io/Posts/B2.-%EB%AC%BC%EB%A6%AC%ED%95%99/phy.stat.ising</guid>
+    <description><![CDATA[ 1. 개요 1.1. 배경 자석의 자성을 만드는 것은 전자의 스핀(spin)이다. 따라서 자성을 모델링하기 위해서는 전자의 스핀을 모델링할 필요가 있는데, 이를 가장 간단히 나타낸 통계역학적 모델이 바로 이징 모형이다. ]]></description>
+    <pubDate>Thu, 19 Feb 2026 09:05:14 GMT</pubDate>
+  </item><item>
+    <title>분배함수(Partition Function)</title>
+    <link>https://hwater27.github.io/Posts/B2.-%EB%AC%BC%EB%A6%AC%ED%95%99/phy.stat.part</link>
+    <guid>https://hwater27.github.io/Posts/B2.-%EB%AC%BC%EB%A6%AC%ED%95%99/phy.stat.part</guid>
+    <description><![CDATA[ 1. 열역학에서의 분배함수 2. 분배함수의 통계학적 해석 분배함수 Z는 moment generating function의 일종이다. 정확히는 에너지(해밀토니안)에 대한 MGF이다. 조금 더 정확히는 다음과 같이 표현된다. ]]></description>
+    <pubDate>Thu, 19 Feb 2026 09:05:14 GMT</pubDate>
+  </item><item>
+    <title>상전이(Phase Transition)</title>
+    <link>https://hwater27.github.io/Posts/B2.-%EB%AC%BC%EB%A6%AC%ED%95%99/phy.stat.phase-transition</link>
+    <guid>https://hwater27.github.io/Posts/B2.-%EB%AC%BC%EB%A6%AC%ED%95%99/phy.stat.phase-transition</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 19 Feb 2026 09:05:14 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
