@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Seongsu</title>
+      <link>https://hwater27.github.io</link>
+      <description>Last 10 notes on Seongsu</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>[LIST] 260212 Lab Meeting</title>
+    <link>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260212</link>
+    <guid>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260212</guid>
+    <description><![CDATA[ 1. Collaborative Multi-Agent for Brain MRI Captioning Medical 쪽에서 VLM이 많이 나오고 있지만, MRI 쪽에서는 그 pool이 적어 성능이 나오지 않는다. ]]></description>
+    <pubDate>Thu, 26 Feb 2026 01:53:13 GMT</pubDate>
+  </item><item>
+    <title>[LIST] 260219 Lab Meeting</title>
+    <link>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260219</link>
+    <guid>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260219</guid>
+    <description><![CDATA[ 1. ]]></description>
+    <pubDate>Thu, 26 Feb 2026 01:53:13 GMT</pubDate>
+  </item><item>
+    <title>2026 FastMRI Ideation</title>
+    <link>https://hwater27.github.io/__Private/Research/2026-FastMRI-Ideation</link>
+    <guid>https://hwater27.github.io/__Private/Research/2026-FastMRI-Ideation</guid>
+    <description><![CDATA[ 260212 일단 비밀 엄수는 당연히 중요하다. 5월에는 advertise를 해야 하고, 4월이 중간고사니까 3월까진 돌려보기. FastMRI Farm을 막아야 한다. ]]></description>
+    <pubDate>Thu, 26 Feb 2026 01:53:13 GMT</pubDate>
+  </item><item>
+    <title>IRT Research Note</title>
+    <link>https://hwater27.github.io/__Private/Research/IRT-Research-Note</link>
+    <guid>https://hwater27.github.io/__Private/Research/IRT-Research-Note</guid>
+    <description><![CDATA[ 내 연구의 흐름 IRT에서 Non-monotonicity를 띠는 IRF가 존재할 것이며, 교육적 함의를 지닐 것이라 추측함. ]]></description>
+    <pubDate>Thu, 26 Feb 2026 01:53:13 GMT</pubDate>
+  </item><item>
+    <title>2025 CNWS Lectures</title>
+    <link>https://hwater27.github.io/Posts/A1.-%EA%B0%95%EC%9D%98-%EB%B0%8F-%EA%B5%90%EC%9E%AC-%EB%A6%AC%EB%B7%B0/lec.cnws.2025</link>
+    <guid>https://hwater27.github.io/Posts/A1.-%EA%B0%95%EC%9D%98-%EB%B0%8F-%EA%B5%90%EC%9E%AC-%EB%A6%AC%EB%B7%B0/lec.cnws.2025</guid>
+    <description><![CDATA[ 1일차(2/10) 복잡계 그리고 비선형 동역학 시스템으로서의 뇌 (정재승) 신경 시계열의 비선형 상태 공간 모델 (박일) 뇌와 인공지능의 무작위성 (백세범) 2일차(2/11) 감각운동학습의 소뇌 계산 메커니즘 (홍성호) 시각 과학에 대한 계산뇌과학자의 역할(장재선) 자연 지능 및 인공 지능에서의 ‘뇌’비게이션 (곽지현) 뇌 신경표상의 계산적 분석과 이해 (김재경) 진행파를 통한 뇌 기능 연구(김성필) 3일차(2/12) 인공지능과 뇌의 오차 역전파 (이상완) 신경회로 추론을 위한 자기지도학습 (윤기중) 생물학적 역학 추론을 위한 확률... ]]></description>
+    <pubDate>Thu, 26 Feb 2026 01:53:13 GMT</pubDate>
+  </item><item>
+    <title>Axiomatic Attribution for Deep Networks</title>
+    <link>https://hwater27.github.io/Posts/A2.-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0/paper.001</link>
+    <guid>https://hwater27.github.io/Posts/A2.-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0/paper.001</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 26 Feb 2026 01:53:13 GMT</pubDate>
+  </item><item>
+    <title>Motivations for Using the Item Response Theory Nominal Response Model to Rank Responses to Multiple-Choice Items</title>
+    <link>https://hwater27.github.io/Posts/A2.-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0/paper.002</link>
+    <guid>https://hwater27.github.io/Posts/A2.-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0/paper.002</guid>
+    <description><![CDATA[  (2026.2.4.) IRT, 특히 오지선다와 같은 multiple-choice items에 관한 방법론인 nominal response model (NRM)을 물리학적으로 풀어낸 논문이다. ]]></description>
+    <pubDate>Thu, 26 Feb 2026 01:53:13 GMT</pubDate>
+  </item><item>
+    <title>A Robust Method for Detecting Item Misfit in Large-Scale Assessments</title>
+    <link>https://hwater27.github.io/Posts/A2.-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0/paper.003</link>
+    <guid>https://hwater27.github.io/Posts/A2.-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0/paper.003</guid>
+    <description><![CDATA[ 데이터는 PIRLS 2016 사용: 40개의 국가로부터 228,498명의 피험자 수집. 전체적으로 multiple-group IRT 사용. ]]></description>
+    <pubDate>Thu, 26 Feb 2026 01:53:13 GMT</pubDate>
+  </item><item>
+    <title>Further Investigation of the Performance of S - X2: An Item Fit Index for Use With Dichotomous Item Response Theory Models</title>
+    <link>https://hwater27.github.io/Posts/A2.-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0/paper.004</link>
+    <guid>https://hwater27.github.io/Posts/A2.-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0/paper.004</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 26 Feb 2026 01:53:13 GMT</pubDate>
+  </item><item>
+    <title>Transition Matrix</title>
+    <link>https://hwater27.github.io/Posts/B1.-%EC%88%98%EB%A6%AC,-%ED%86%B5%EA%B3%84/math.linalg.transitionmatrix</link>
+    <guid>https://hwater27.github.io/Posts/B1.-%EC%88%98%EB%A6%AC,-%ED%86%B5%EA%B3%84/math.linalg.transitionmatrix</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 26 Feb 2026 01:53:13 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

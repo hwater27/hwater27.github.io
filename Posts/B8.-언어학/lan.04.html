@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WLTQR69M');</script><title>4. 의미론</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Seongsu"/><meta property="og:title" content="4. 의미론"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="4. 의미론"/><meta name="twitter:description" content="4. 단어의 의미 단어란 무엇일까? [표준국어대사전] 분리하여 자립적으로 쓸 수 있는 말이나 이에 준하는 말 문장을 구성하는 단위 문장에서 분리될 수 있는 단위 (소리 연쇄) 의미를 알 수 있는 단위 한 단어가 담고 있는 정보는 언어마다 달라 보인다."/><meta property="og:description" content="4. 단어의 의미 단어란 무엇일까? [표준국어대사전] 분리하여 자립적으로 쓸 수 있는 말이나 이에 준하는 말 문장을 구성하는 단위 문장에서 분리될 수 있는 단위 (소리 연쇄) 의미를 알 수 있는 단위 한 단어가 담고 있는 정보는 언어마다 달라 보인다."/><meta property="og:image:alt" content="4. 단어의 의미 단어란 무엇일까? [표준국어대사전] 분리하여 자립적으로 쓸 수 있는 말이나 이에 준하는 말 문장을 구성하는 단위 문장에서 분리될 수 있는 단위 (소리 연쇄) 의미를 알 수 있는 단위 한 단어가 담고 있는 정보는 언어마다 달라 보인다."/><meta property="twitter:domain" content="hwater27.github.io"/><meta property="og:url" content="https://hwater27.github.io/Posts/B8.-언어학/lan.04"/><meta property="twitter:url" content="https://hwater27.github.io/Posts/B8.-언어학/lan.04"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="4. 단어의 의미 단어란 무엇일까? [표준국어대사전] 분리하여 자립적으로 쓸 수 있는 말이나 이에 준하는 말 문장을 구성하는 단위 문장에서 분리될 수 있는 단위 (소리 연쇄) 의미를 알 수 있는 단위 한 단어가 담고 있는 정보는 언어마다 달라 보인다."/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvcnVubmVyL3dvcmsvYnJhaW4vYnJhaW4vcXVhcnR6L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://hwater27.github.io/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://hwater27.github.io/Posts/B8.-언어학/lan.04-og-image.webp"/><meta property="og:image:url" content="https://hwater27.github.io/Posts/B8.-언어학/lan.04-og-image.webp"/><meta name="twitter:image" content="https://hwater27.github.io/Posts/B8.-언어학/lan.04-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Posts/B8.-언어학/lan.04"><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLTQR69M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Seongsu</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.file&amp;&amp;b.file||a.file&amp;&amp;!b.file?a.file?1:-1:a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;})&quot;,&quot;filterFn&quot;:&quot;node=>!node.displayName?.startsWith(\&quot;_\&quot;)&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-97"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-97" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Posts/">Posts</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Posts/B8.-언어학/">B8. 언어학</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>4. 의미론</a></div></nav><h1 class="article-title">4. 의미론</h1><p show-comma="true" class="content-meta"><time datetime="2026-02-26T01:53:13.584Z">Feb 26, 2026</time><span>22 min read</span></p><ul class="tags"><li><a href="../../tags/언어학" class="internal tag-link">언어학</a></li></ul></div></div><article class="popover-hint"><h1 id="4-단어의-의미">4. 단어의 의미<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-단어의-의미" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<hr/>
+<h3 id="단어란-무엇일까">단어란 무엇일까?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#단어란-무엇일까" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>
+<p><strong>[표준국어대사전]</strong> 분리하여 자립적으로 쓸 수 있는 말이나 이에 준하는 말</p>
+</li>
+<li>
+<p><strong>문장을 구성하는 단위</strong></p>
+<ul>
+<li>문장에서 분리될 수 있는 단위 (소리 연쇄)</li>
+<li>의미를 알 수 있는 단위</li>
+</ul>
+</li>
+<li>
+<p><strong>한 단어가 담고 있는 정보는 언어마다 달라 보인다.</strong></p>
+<blockquote>
+<ul>
+<li><strong>Engenni</strong> (Thomas 1978)
+<blockquote>
+<p>A <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0em;"></span><span class="mspace"> </span><span class="mspace"> </span><span class="mspace"> </span></span></span></span> ta <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0em;"></span><span class="mspace"> </span></span></span></span> na wa <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0em;"></span><span class="mspace"> </span></span></span></span> omu.<br/>
+one go to seek house<br/>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">⇒</span></span></span></span> Let’s go look for the house.</p>
+</blockquote>
+</li>
+<li><strong>Mohawk</strong>
+<blockquote>
+<p>Teninonhsihsakha.<br/>
+te-ni-nonhs-ihsak-ha.<br/>
+you.and.I-two-house-seek-go.and<br/>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">⇒</span></span></span></span> Let’s go look for the house.</p>
+</blockquote>
+</li>
+</ul>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">⇒</span></span></span></span> <strong>Engenni어 문장 = Mohawk어 단어?</strong></p>
+</blockquote>
+</li>
+<li>
+<p><strong>그럼에도 단어를 안다는 것은?</strong></p>
+<ul>
+<li>단어가 몇 개인지 아는 것</li>
+<li>단어의 뜻을 아는 것</li>
+<li>말하고자 하는 바를 어떻게 부르는지 아는 것</li>
+</ul>
+</li>
+<li>
+<p><strong>단어를 어떻게 알아차릴 수 있을까?</strong></p>
+<ul>
+<li>머릿속 사전(심성 어휘부, mental lexicon)의 정보</li>
+</ul>
+</li>
+<li>
+<p><strong>심성 어휘부에 담긴 정보 ver. 1</strong></p>
+<ul>
+<li>단어의 발음, 의미</li>
+<li>문장에서 담당할 수 있는 역할</li>
+<li>다른 단어와의 관계(유의어, 반의어 등)</li>
+</ul>
+</li>
+</ol>
+<h2 id="41-단어의-의미-정의">4.1. 단어의 의미 정의<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#41-단어의-의미-정의" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>
+<p><strong>언어 표현의 ‘지시 reference’</strong></p>
+<ul>
+<li>한 언어 표현의 의미는 그 표현이 세상에서 가리키는 대상들의 집합
+<ul>
+<li>(e.g.) 고양이
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">←</span></span></span></span> 아메리칸 쇼트 케어 고양이, 페르시안 고양이, 맹크스 고양이, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.313em;"></span><span class="minner">⋯</span></span></span></span></li>
+<li>(e.g.) 자동사 swim (수영하다)
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">←</span></span></span></span> 수영을 하는 사람들의 집합</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>언어 표현의 ‘개념 sense’</strong></p>
+<ul>
+<li>한 언어 표현의 의미는 표현을 알고 있는 사람이 떠올리는 심리적 표상
+<ol>
+<li>사전식 dictionary-style<br/>
+: 단어를 설명하는 또다른 단어의 의미를 통해 파악
+<ul>
+<li>(e.g.) 고양이<br/>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.123em;"></span><span class="minner">…</span></span></span></span> 원래 아프리카의 리비아살쾡이를 길들인 것으로, 턱과 송곳니가 특히 발달해서 육식을 주로 한다 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.123em;"></span><span class="minner">…</span></span></span></span></li>
+</ul>
+</li>
+<li>심적 영상 mental image<br/>
+: 머릿속에 떠오르는 영상</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>지시 reference만으로 언어의 의미를 모두 포함하기는 어려움</p>
+<ul>
+<li>구체적인 지시물이 없는 언어 표현도 있음
+<ul>
+<li>(e.g.) 사랑, 증오, 충성, 맹세, 추억 - <u>추상 명사</u></li>
+<li>(e.g.) 매우, 많이, 늘, 자주 - <u>부사</u></li>
+</ul>
+</li>
+<li>동일한 지시물을 가리키는 여러 언어 표현이 존재함
+<ul>
+<li>(e.g.) 금성, 샛별, 개밥바라기</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>개념 concept만으로 언어의 의미를 모두 포함하기는 어려움</p>
+<ul>
+<li>객관적으로 파악하기 어려움</li>
+<li>개인마다 언어 표현에 대해 떠오르는 바가 다를 수 있음</li>
+</ul>
+</li>
+</ol>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">⇒</span></span></span></span> <strong>(개념이 밀접하게 관계되는) 단어들 간의 관계(공통점과 차이점) 등을 통해 단어의 의미를 파악하고자 함</strong></p>
+<ul>
+<li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 구조주의적 어휘 의미론</li>
+<li><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 장 이론과 성분 분석</li>
+</ul>
+<blockquote>
+<p>개념에 기반을 둔 논의: <strong>Jakendoff의 ‘개념문법‘</strong><br/>
+<em>“개념 문법은 어떻게 개념원소가 모여 단어의 의미를 이룰 것인지 나타내야 한다&quot;</em><br/>
+<em>&quot;우리는 단어가 엄격하고 정의를 갖고 있다는 생각을 포기해야 한다 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.313em;"></span><span class="minner">⋯</span></span></span></span> 적절한 상황적 민감성을 갖춘 정의를 만드는 것도 가능하다”</em></p>
+<p><strong>(cf)</strong> 생성 언어학은 ‘지시’에 기반을 두고 진리조건적 의미론을 발전시킴</p>
+</blockquote>
+<h2 id="42-단어의-의미-분석-방식-장이론과-성분-분석">4.2. 단어의 의미 분석 방식: 장이론과 성분 분석<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#42-단어의-의미-분석-방식-장이론과-성분-분석" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>연속적인 색깔 사진은 ‘오색 무지개’인가? 아니면 ‘일곱 색깔 무지개’인가?
+<ul>
+<li>사람들의 눈에 비친 무지개 색깔은 다르지 않음</li>
+<li>어휘와 어휘에 따른 구획의 차이<br/>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">⇒</span></span></span></span> 개별 어휘 항목의 의미는 일정한 의미 영역 안에서 <u>다른 어휘 항목과의 관계에 의해 규정</u>된다.</li>
+</ul>
+</li>
+</ul>
+<h3 id="421-장이론">4.2.1. 장이론<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#421-장이론" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>
+<p><strong>의미장</strong>: 밀접한 관계에 있는 언어 표현들의 집합</p>
+<ul>
+<li>(e.g.) 성적의 등급 - 매우 잘함, 잘함, 보통, 노력 요함</li>
+<li>(e.g.) 색채 - 하양, 검정, 빨강, 파랑, 노랑</li>
+<li>(e.g.) 친족 - 할아버지, 할머니, 아버지, 어머니, 언니</li>
+</ul>
+</li>
+<li>
+<p><strong>언어 전체를 반영하는 의미로부터 세분화되어 가면서 작은 의미장들이 존재</strong></p>
+<ul>
+<li>(e.g.) ‘길짐승’의 의미장은 ‘소, 말, 개’의 상위장인 동시에 ‘날짐승, 인간’ 등과 함께 ‘동물’의 부분 장을 구성함</li>
+</ul>
+</li>
+<li>
+<p><strong>언어의 의미는 같은 장 속에 있는 다른 표현들과의 상호 관계 속에서 결정됨</strong></p>
+<ul>
+<li>(e.g.) ‘매우 잘함-잘함-보통-노력 요함’에서의 ‘잘함’의 의미
+<ul>
+<li>4단계로 나뉘어 있음을 알아야 함</li>
+<li>‘잘함’ 아래에 ‘보통, 노력 요함’, 위에는 ‘매우 잘함’이 있음을 알아야 함</li>
+<li>‘잘함-노력 요함’에서의 ‘잘함’과 차이가 있음</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>의미장은 언어마다 다르다.</strong></p>
+</li>
+</ol>
+<ul>
+<li>
+<p>레오 바이스게르버 Leo Wisgerber의 &lt;언어적 중간 세계><br/>
+<em>“어휘는 책상에 대한 중간 세계에 대한 사고상”</em></p>
+</li>
+<li>
+<p>장이론의 초기 목표: 언어마다 고유한 세계관 밝히기</p>
+</li>
+</ul>
+<ol start="5">
+<li>
+<p><strong>어휘를 묶고 가르는 언어적 근거</strong></p>
+<blockquote>
+<p>착용물: 옷, 신발, 모자, 양복, 구두, 중절모</p>
+<ul>
+<li>그는 회의에 참석할 때면 항상 양복을 입는다.</li>
+<li>그는 양복을 입을 때면 항상 구두를 신는다.</li>
+<li>그는 코트를 입을 때면 항상 중절모를 쓴다.</li>
+</ul>
+<p>어휘 의미의 존재 양상: <u>계열 관계</u>와 <u>결합 관계</u>를 통해 설명 가능</p>
+<ul>
+<li>계열 관계: 교체할 수 있는 말들 간의 관계</li>
+<li>결합 관계: 결합할 수 있는 말들 간의 관계</li>
+</ul>
+</blockquote>
+</li>
+<li>
+<p><strong>의미장의 분절 원리</strong></p>
+<ul>
+<li>의미장은 일정한 기준에 따라 개념적으로 구획되어 있음
+<ul>
+<li>구획의 기준을 파악함으로써 어휘들의 개별적 특성을 파악할 수 있음</li>
+<li>다른 어휘소의 결합 관계를 통해서 의미장의 구성이 정교해질 수 있음</li>
+</ul>
+</li>
+<li>(e.g.) 덥다, 뜨겁다, 따뜻하다, 뜨듯하다
+<ul>
+<li>
+<p>공통점: 온도</p>
+<ol>
+<li>높은 온도의 의미장: 덥다, 뜨겁다</li>
+<li>낮은 온도의 의미장: 서늘하다, 미지근하다</li>
+</ol>
+</li>
+<li>
+<p>주어와의 호응 관계를 고려한 세분화</p>
+<blockquote>
+<ul>
+<li>방 안이 춥다/덥다</li>
+<li>방바닥이 차갑다/뜨겁다</li>
+<li>방 안이 서늘하다/따뜻하다</li>
+<li>방바닥이 미지근하다/뜨듯하다</li>
+</ul>
+</blockquote>
+<ol start="3">
+<li>비접촉 감각의 의미장: 덥다, 따뜻하다</li>
+<li>접촉 감각의 의미장: 미지근하다, 뜨듯하다</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="422-의미-성분-인식과-성분-분석">4.2.2. 의미 성분 인식과 성분 분석<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#422-의미-성분-인식과-성분-분석" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>
+<p><strong>의미 성분 인식</strong></p>
+<ul>
+<li>의미장 내 어휘들의 내부 관계 분석 과정에서 의미 성분이 추출됨</li>
+</ul>
+</li>
+<li>
+<p><strong>성분 분석</strong><br/>
+: 독립적인 이론이 아닌, 의미를 분석하고 기술하는 방법을 말함</p>
+<ul>
+<li>한 단어의 의미는 더 작은 의미로 구성됨</li>
+<li>의미 단위는 의미상의 공통점과 차이점에 근거하여 설정</li>
+<li>정보의 있고 없음을 표시하는 +, - 기호를 사용하여, 더 적은 단위로 표현 가능</li>
+</ul>
+</li>
+<li>
+<p><strong>성분 분석의 예</strong></p>
+<ul>
+<li>
+<p>구시렁거렸다, 중얼거렸다, 웅얼거렸다, 속닥거렸다<br/>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 포괄하는 의미: 잘 들리지 않는 목소리로 계속 말하다.<br/>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 공통 의미 성분: [말하다], [잘 들리지 않음], [반복적임]</p>
+<p>A. 분류 1 [불만]: 구시렁거리다 / 중얼거리다, 웅얼거리다, 속닥거리다<br/>
+B. 분류 2 [혼잣말]: 구시렁거리다, 중얼거리다, 웅얼거리다 / 속닥거리다<br/>
+C. 분류 3 [입속말]: 구시렁거리다, 중얼거리다, 속닥거리다 / 웅얼거리다</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th style="text-align:center;">구시렁거리다</th><th style="text-align:center;">중얼거리다</th><th style="text-align:center;">웅얼거리다</th><th style="text-align:center;">속닥거리다</th></tr></thead><tbody><tr><td>[불만]</td><td style="text-align:center;">+</td><td style="text-align:center;">-</td><td style="text-align:center;">-</td><td style="text-align:center;">-</td></tr><tr><td>[혼잣말]</td><td style="text-align:center;">+</td><td style="text-align:center;">+</td><td style="text-align:center;">+</td><td style="text-align:center;">-</td></tr><tr><td>[입속말]</td><td style="text-align:center;">-</td><td style="text-align:center;">-</td><td style="text-align:center;">+</td><td style="text-align:center;">-</td></tr></tbody></table></div>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>성분 분석의 장점</strong></p>
+<ul>
+<li>의미 관계를 명확히 파악할 수 있음
+<ul>
+<li>분류 체계가 잘 짜인 어휘 분석에 적용: 조리어, 친족 관계명 등</li>
+</ul>
+</li>
+<li>의미적 호응 양상을 설명할 수 있음
+<ul>
+<li>(e.g.) 모자를 <u>쓰다</u>(입다, 신다, 끼다 X)<br/>
+모자가 ’+[얼굴부위]‘를 성분으로 가졌다고 하면, 모자와 일치하는 성분을 가진 ‘쓰다’를 선택하는 것으로 설명할 수 있음</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>한계</strong></p>
+<ul>
+<li>일반 언어에서 사용되는 단어를 분석에 그대로 사용함</li>
+<li>보편적인 의미 성분 추출이 쉽지 않음
+<ul>
+<li>의미 성분의 타당성에 대한 근거 부족</li>
+<li>어느 정도의 의미 성분 목록이 필요한지 분명하게 제시되지 않음</li>
+</ul>
+</li>
+<li>어휘의 의미가 어떻게 합성되어 문장의 의미를 이루는지는 설명되지 않음</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><strong>[더 생각해보기]</strong><br/>
+다음은 한국어와 영어의 조리 관련 어휘들이다. 이 어휘 묶음의 의미장을 구성한 후, 한국어와 영어의 구성 차이를 설명해 보시오.</p>
+<ul>
+<li>끓이다/쑤다/삶다/찌다/고다/조리다/달이다/데치다/튀기다/지지다/볶다/굽다/그슬리다</li>
+<li>broil/saute/roast/fry/grill/barbecue/bake/sear/boil/stream/simmer/poach/stew</li>
+</ul>
+</blockquote>
+<h2 id="43-의미관계">4.3. 의미관계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#43-의미관계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>계열 관계: 같은 범주의 어휘 사이에 맺어지는 관계. 유의 관계, 반의 관계, 상하 관계, 부분-전체 관계가 있다.</p>
+<h3 id="431-유의-관계">4.3.1. 유의 관계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#431-유의-관계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>
+<p><strong>정의</strong></p>
+<ul>
+<li>비슷한 의미를 가지는 서로 다른 단어들의 쌍
+<ul>
+<li>(e.g.) 사람-인간, 손목-팔목, 경험-체험, 흠집-기스-스크래치</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>유의어 생성 이유</strong></p>
+<ul>
+<li>관계, 세대, 상황, 격식 등에 따른 선택
+<ul>
+<li>(e.g.) 나이-연세, 승인/허락-컨펌</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>유의어의 의미 차이를 검증하는 방법</strong></p>
+<ol>
+<li>교체 검증법: 동일한 문맥을 제시하고 유의 관계를 이루는 단어를 바꾸어서 그 문장이 성립하는지를 확인하는 방법
+<ul>
+<li>
+<p>{씨/씨앗}을/를 {뿌리다/심다}</p>
+</li>
+<li>
+<p>참외 {씨/*씨앗}을/를 {뱉다/발라내다}</p>
+<p><span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> ‘씨앗’: 농사와 관련된 경우에 제한적으로 쓰임</p>
+</li>
+</ul>
+</li>
+<li>반의어 검증법: 유의어를 이루는 두 단어의 반의어를 대응시켜서 의미의 차이를 발견하는 방법
+<ul>
+<li>‘작다’-크다: 크기 / ‘적다’-많다: 수량</li>
+<li>그러나 두 단어의 <u>반의어가 동일</u>한 경우, 적용하기 어려움
+<ul>
+<li>(e.g.) 아래 vs 밑 <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 반의어: 위
+<ul>
+<li>교체 검증법을 보조적으로 사용 (자세한 사항은 {아래와/*밑과} 같다.)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>복합어 검증법: 복합어 결합 양상 비교
+<ul>
+<li>(e.g.) 허공 vs 공중
+<ul>
+<li>
+<p>허공이 포함된 복합어: 허공, 허공계</p>
+</li>
+<li>
+<p>공중이 포함된 복합어: 공중 그네, 공중 누각, 공중 분해, 공중비행, 공중회전</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>
+<p>절대적인 검증법은 없음</p>
+</li>
+<li>
+<p>왜 이러한 차이가 나타나는지에 대한 이유 설명이 중요함</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>[생각해 보기]</strong><br/>
+유의 관계에 있는 단어들의 의미 차이를 설명해 보시오.</p>
+<ul>
+<li>잡다/쥐다</li>
+<li>붓다/쏟다</li>
+<li>손목/팔목</li>
+<li>사이-틈-겨를-짬</li>
+<li>줄-선-금</li>
+<li>사건-사고</li>
+<li>진짜-정말</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<h3 id="432-반의-관계">4.3.2. 반의 관계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#432-반의-관계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h4 id="정의">정의<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#정의" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>어휘의 의미가 서로 반대되거나 대립되는 의미 관계를 이루는 단어들의 쌍</li>
+<li>대부분 같은 의미를 갖되 하나의 기준이거나 의미 특성의 차이로 대립되는 관계</li>
+</ul>
+<h4 id="공유하는-특성에-따른-분류">공유하는 특성에 따른 분류<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#공유하는-특성에-따른-분류" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ol>
+<li>
+<p><strong>상보 반의어</strong></p>
+<ul>
+<li>두 어휘가 특정 의미 영역을 상호 배타적으로 양분하는 경우
+<ul>
+<li>(e.g.) 홀수, 짝수</li>
+</ul>
+</li>
+<li>특징1: 두 단어를 동시에 긍정하거나 부정할 수 없음
+<ul>
+<li>*이 자연수는 홀수이기도 하고, 짝수이기도 하다.</li>
+<li>*이 자연수는 홀수도 아니고, 짝수도 아니다.</li>
+</ul>
+</li>
+<li>특징2: 정도 부사의 수식을 받지 않으며, 비교 표현도 쓸 수 없음
+<ul>
+<li>*영희는 대학에 {약간/조금/엄청} {합격했다/불합격했다}.</li>
+<li>*영희는 철수보다 대학에 더 {합격했다/불합격했다}.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>정도 반의어</strong></p>
+<ul>
+<li>저울의 양 끝처럼 대립하는 두 단어 쌍 사이에 중간 지대가 있는 반의 관계
+<ul>
+<li>(e.g.) 길다/짧다, 가볍다/무겁다, 작다/크다</li>
+</ul>
+</li>
+<li>특징1: 두 단어를 동시에 긍정하거나 부정할 수 있음
+<ul>
+<li>(e.g.) 내 친구는 키가 크지도 않고 작지도 않아.</li>
+</ul>
+</li>
+<li>특징2: 정도 부사의 <u>수식을 받으며</u>, 비교 표현도 쓸 수 있음
+<ul>
+<li>(e.g.) 방이 엄청 넓다.</li>
+<li>(e.g.) 친구 방이 내 방보다 넓다.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>관계 반의어(상호 반의어)</strong></p>
+<ul>
+<li>두 단어 중에서 하나가 성립하면 반대편의 단어도 반드시 존재하는 상호적 관계를 가짐
+<ul>
+<li>(e.g.) 사다/팔다, 주다/받다, 때리다/맞다</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>방향 반의어</strong></p>
+<ul>
+<li>어떤 사건이나 행위의 과정이나 방향이 반대될 때 생기는 반의 관계
+<ul>
+<li>(e.g.) 오다/가다, 열다/닫다</li>
+</ul>
+</li>
+<li>관계 반의어와 차이점: 하나의 행위가 있다고 해서 반드시 반대 방향의 행위가 있지는 않음
+<ul>
+<li>문을 열었다고 해서 반드시 닫는 행위가 있어야 하는 것은 아님</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="433-상하위-관계">4.3.3. 상하위 관계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#433-상하위-관계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>
+<p><strong>정의</strong></p>
+<ul>
+<li>어휘들 사이에 상하 구조를 이루면서 서로 포함의 관계가 성립하는 경우
+<ul>
+<li>해당 언어에서 세계를 분류하는 방식과 연관됨</li>
+</ul>
+</li>
+<li>(e.g.) 새 - 독수리, 참새, 솔개, 올빼미, 제비, 비둘기, 딱따구리, 기러기, <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.313em;"></span><span class="minner">⋯</span></span></span></span></li>
+</ul>
+</li>
+<li>
+<p><strong>하위어가 참이면 상위어도 참이지만, 상위어가 참이라고 해서 하위어가 참은 아니다.</strong></p>
+<ul>
+<li>(e.g.) 독수리가 하늘을 날아간다. (참) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 새가 하늘을 날아간다. (참)</li>
+<li>(e.g.) 새가 하늘을 날아간다. (참) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 독수리가 하늘을 날아간다. (참?)</li>
+</ul>
+</li>
+</ol>
+<h3 id="434-부분-전체-관계">4.3.4. 부분-전체 관계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#434-부분-전체-관계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>
+<p><strong>정의</strong></p>
+<ul>
+<li>한 단어가 다른 단어의 부분이 되는 관계</li>
+<li>시공간에 함께 존재하는 일련의 대상들을 조립하는 것
+<ul>
+<li>(e.g.) 전체어 ‘자동차’ | 부분어: 엔진, 바퀴, 핸들, 브레이크, 의자</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>특징1</strong>: 부분어가 참이더라도, 전체어가 참이 아닐 수 있음</p>
+<ul>
+<li>(e.g.) 다리가 아프다. (참) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 몸이 아프다. (참)</li>
+<li>(e.g.) 타이어를 샀다. (참) <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 차를 샀다. (참?)</li>
+</ul>
+</li>
+<li>
+<p><strong>특징2</strong>: 부분어인 한 단어가 여러 개의 다른 전체어와 연관될 수 있음</p>
+<ul>
+<li>(e.g.) 손잡이 - 전체어: 문, 버스, 망치, 컵</li>
+</ul>
+</li>
+</ol>
+<h3 id="단어의-의미-관계">단어의 의미 관계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#단어의-의미-관계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>
+<p>기준에 따라 여러 관계로 정의될 수 있음</p>
+</li>
+<li>
+<p>관건: 기준에 대한 근거, 기준의 설명력</p>
+</li>
+<li>
+<p>지시하고 표현해야 할 대상이 변화하고 증가함에 따라 기존의 단어가 표상할 수 있는 의미가 확대되기도 함</p>
+<ul>
+<li>단어의 다의성
+<ul>
+<li>중심 의미: 가장 기본적이고 핵심적인 의미</li>
+<li>주변 의미: 문맥이나 상황에 따라 그 범위가 확장되어 다른 의미를 갖게 됨</li>
+<li>(e.g.) 손을 깨끗이 씻다. / 손이 모자라도(노동력), 손이 크다(씀씀이)</li>
+</ul>
+</li>
+<li>의미적 신어 (송현주 2022)
+<ul>
+<li>분위기 깡패, 실물 깡패</li>
+<li>팩트 폭행<br/>
+<span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> <strong>은유</strong>: 의미 생성의 기제?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="44-단어의-의미-생성-기제로서의-은유">4.4. 단어의 의미 생성 기제로서의 은유<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#44-단어의-의미-생성-기제로서의-은유" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li>
+<p><strong>정의</strong>: 한 종류의 사물을 다른 종류의 사물을 이용하여 이해하는 방식</p>
+<ul>
+<li>일상 의사소통 과정에서 널리 사용되는 표현 방식</li>
+<li>단어의 다의성을 생성하는 주요 기제</li>
+</ul>
+</li>
+<li>
+<p><strong>기능</strong></p>
+<ul>
+<li>구체화, 간결화, 선명화
+<ul>
+<li>삶은 미로의 연속이다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 추상적 설명 대상을 구체화</li>
+<li>내 컴퓨터가 갑자기 말을 안 듣는다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 복잡한 설명 대상을 간결화</li>
+<li>드디어 선거전이 시작되었다. <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 설명 대상을 생생하게 전달</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>은유 과정</strong></p>
+<ul>
+<li>(e.g.) 시간이 정말 빠르게 흘렀다.
+<ol>
+<li>서로 다른 영역에 속하는 두 가지 개념이 관여됨: ‘시간’과 ‘액체’</li>
+<li>두 개념이 유사성에 기초하여 교체되어 쓰이면서 은유 발생
+<ul>
+<li>시간 [+추상성]<strong>[+유동성]</strong></li>
+<li>액체 [+구체성]<strong>[+유동성]</strong></li>
+</ul>
+</li>
+<li>익숙하고 구체적인 개념 영역(근원 영역)의 개념이 상대적으로 낯설고 추상적인 개념 영역(목표 영역)으로 대응됨
+<ul>
+<li>(e.g.) 시간을 아껴 써야 한다.
+<ul>
+<li>형식화: 시간은 돈이다.
+*목표영역: 시간 | 근원영역: 돈</li>
+</ul>
+</li>
+<li>(e.g.) 깨지지 않을 사랑을 하자.
+<ul>
+<li>형식화: 사랑은 그릇이다.
+<ul>
+<li>목표영역: 사랑 | 근원영역: 그릇</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>추상적이고 모호한 개념을 구체적 실체로 간주</li>
+<li>근원영역의 직접적이고 구체적 속성을 이용하여 추상적 목표 영역을 효과적으로 이해</li>
+</ul>
+</blockquote>
+</li>
+<li>(e.g.) 이번 승리로 사기가 올랐다/사기를 떨어뜨리는 행동을 하지 맙시다.
+<ul>
+<li>형식화: 행복은 위이고, 불행은 아래이다.
+<ul>
+<li>목표영역: 행복 | 근원영역: 위</li>
+<li>목표영역: 불행 | 근원영역: 아래</li>
+</ul>
+</li>
+<li>일상생활에서의 물리적 경험이 반영되어 새로운 은유 체계를 형성함</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-13" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#4-단어의-의미" data-for="4-단어의-의미">4. 단어의 의미</a></li><li class="depth-2"><a href="#단어란-무엇일까" data-for="단어란-무엇일까">단어란 무엇일까?</a></li><li class="depth-1"><a href="#41-단어의-의미-정의" data-for="41-단어의-의미-정의">4.1. 단어의 의미 정의</a></li><li class="depth-1"><a href="#42-단어의-의미-분석-방식-장이론과-성분-분석" data-for="42-단어의-의미-분석-방식-장이론과-성분-분석">4.2. 단어의 의미 분석 방식: 장이론과 성분 분석</a></li><li class="depth-2"><a href="#421-장이론" data-for="421-장이론">4.2.1. 장이론</a></li><li class="depth-2"><a href="#422-의미-성분-인식과-성분-분석" data-for="422-의미-성분-인식과-성분-분석">4.2.2. 의미 성분 인식과 성분 분석</a></li><li class="depth-1"><a href="#43-의미관계" data-for="43-의미관계">4.3. 의미관계</a></li><li class="depth-2"><a href="#431-유의-관계" data-for="431-유의-관계">4.3.1. 유의 관계</a></li><li class="depth-2"><a href="#432-반의-관계" data-for="432-반의-관계">4.3.2. 반의 관계</a></li><li class="depth-2"><a href="#433-상하위-관계" data-for="433-상하위-관계">4.3.3. 상하위 관계</a></li><li class="depth-2"><a href="#434-부분-전체-관계" data-for="434-부분-전체-관계">4.3.4. 부분-전체 관계</a></li><li class="depth-2"><a href="#단어의-의미-관계" data-for="단어의-의미-관계">단어의 의미 관계</a></li><li class="depth-1"><a href="#44-단어의-의미-생성-기제로서의-은유" data-for="44-단어의-의미-생성-기제로서의-은유">4.4. 단어의 의미 생성 기제로서의 은유</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../postscript.js" type="module" data-persist="true"></script></html>
