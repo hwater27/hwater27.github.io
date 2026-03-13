@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Seongsu</title>
+      <link>https://hwater27.github.io</link>
+      <description>Last 10 notes on Seongsu</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>[LIST] 260212 Lab Meeting</title>
+    <link>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260212</link>
+    <guid>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260212</guid>
+    <description><![CDATA[ 1. Collaborative Multi-Agent for Brain MRI Captioning Medical 쪽에서 VLM이 많이 나오고 있지만, MRI 쪽에서는 그 pool이 적어 성능이 나오지 않는다. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 22:05:45 GMT</pubDate>
+  </item><item>
+    <title>[LIST] 260219 Lab Meeting</title>
+    <link>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260219</link>
+    <guid>https://hwater27.github.io/Posts/_A3.-%EB%9E%A9%EB%AF%B8%ED%8C%85-%EB%85%B8%ED%8A%B8/_lm.list.260219</guid>
+    <description><![CDATA[ 1. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 22:05:45 GMT</pubDate>
+  </item><item>
+    <title>2026 FastMRI Ideation</title>
+    <link>https://hwater27.github.io/__Private/Research/2026-FastMRI-Ideation</link>
+    <guid>https://hwater27.github.io/__Private/Research/2026-FastMRI-Ideation</guid>
+    <description><![CDATA[ 260212 일단 비밀 엄수는 당연히 중요하다. 5월에는 advertise를 해야 하고, 4월이 중간고사니까 3월까진 돌려보기. FastMRI Farm을 막아야 한다. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 22:05:45 GMT</pubDate>
+  </item><item>
+    <title>IRT Research Note</title>
+    <link>https://hwater27.github.io/__Private/Research/IRT-Research-Note</link>
+    <guid>https://hwater27.github.io/__Private/Research/IRT-Research-Note</guid>
+    <description><![CDATA[ 내 연구의 흐름 IRT에서 Non-monotonicity를 띠는 IRF가 존재할 것이며, 교육적 함의를 지닐 것이라 추측함. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 22:05:45 GMT</pubDate>
+  </item><item>
+    <title>2. 언어와 사고</title>
+    <link>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.02</link>
+    <guid>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.02</guid>
+    <description><![CDATA[ 2. 언어와 사고 2.1. 생성 언어학의 입장 자연 언어 정신을 나타내는 방법 중 하나 사고의 매개체로 기능하기에 너무 애매모호하다. 정신어 사람은 정신어로 사고한다. ‘정신어’는 암묵적인 지식을 활용하는 등 ‘자연 언어’보다 복잡하다. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 22:05:45 GMT</pubDate>
+  </item><item>
+    <title>3. 자연언어처리 서비스</title>
+    <link>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.03</link>
+    <guid>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.03</guid>
+    <description><![CDATA[ 3. 자연언어처리 서비스 3.1. 자연언어처리 서비스의 구분 3.1.1. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 22:05:45 GMT</pubDate>
+  </item><item>
+    <title>4. 의미론</title>
+    <link>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.04</link>
+    <guid>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.04</guid>
+    <description><![CDATA[ 4. 단어의 의미 단어란 무엇일까? [표준국어대사전] 분리하여 자립적으로 쓸 수 있는 말이나 이에 준하는 말 문장을 구성하는 단위 문장에서 분리될 수 있는 단위 (소리 연쇄) 의미를 알 수 있는 단위 한 단어가 담고 있는 정보는 언어마다 달라 보인다. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 22:05:45 GMT</pubDate>
+  </item><item>
+    <title>5. 단어형태론</title>
+    <link>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.05</link>
+    <guid>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.05</guid>
+    <description><![CDATA[ 5. 단어의 구조 Engenni어와 Mohawk어 화자는 단어 전체를 머릿속 사전에 외우고 있을까? 사람들은 새로운 지시/개념에 대해서 항상 새로운 형태로만 말할까? 5.1. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 22:05:45 GMT</pubDate>
+  </item><item>
+    <title>6. 문장론</title>
+    <link>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.06</link>
+    <guid>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.06</guid>
+    <description><![CDATA[ 6. 문장의 구조 6.1. 문장이란 무엇일까? 사전적 정의 생각이나 감정을 말과 글로 표현할 때 완결된 내용을 나타내는 최소의 단위 단순히 단어만 나열하면 될까? 아니다. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 22:05:45 GMT</pubDate>
+  </item><item>
+    <title>7. 음성학</title>
+    <link>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.07</link>
+    <guid>https://hwater27.github.io/Posts/B8.-%EC%96%B8%EC%96%B4%ED%95%99/lan.07</guid>
+    <description><![CDATA[ 7. 음성학 7.1. 음성학 소개 7.2. 말소리의 기관 7.3. 자음 7.4. 모음 7.5. 초분절음 7.6. 국제음성기호 7.7. 말소리의 음향적 특징 7.8. 음향 분석 연습 8. 법음성학 8.1. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 22:05:45 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
